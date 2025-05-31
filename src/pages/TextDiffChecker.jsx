@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from 'react-helmet';
 import DiffResult from "../components/DiffResult";
 import "../styles.css";
 
@@ -20,10 +20,10 @@ export default function TextDiffChecker() {
         <div className="container">
             <Helmet>
                 <title>Compare Text Online | Text Diff Checker</title>
-                <meta name="description" content="Free online Text Diff Checker. Compare two texts and see the differences clearly highlighted." />
+                <meta name="description" content="Free safe Text Diff Checker. All content remain local to your browser." />
             </Helmet>
             <h1>Text Diff Checker</h1>
-            <p className="subtitle">Compare and highlight differences between two texts</p>
+            <p className="subtitle">Free safe Text Diff Checker. All content remain local to your browser.</p>
             <div className="textarea-container">
                 <textarea
                     value={text1}

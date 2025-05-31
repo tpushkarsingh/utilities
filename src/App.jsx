@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import TextDiffChecker from "./pages/TextDiffChecker";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from 'react-helmet';
 
 export default function App() {
   useEffect(() => {
